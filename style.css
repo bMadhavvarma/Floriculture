@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://res.cloudinary.com/interflora/f_auto,q_auto,t_blogimage/blogs/Marigold1565773816213.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    position:relative; 
+}
+.background-container{
+    background-color:transparent;
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:max-content;
+    width: 70%;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+}
+.heading1{
+    margin-top: 25px;
+    font-weight: 650;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:white;
+}
+.para1{
+    font-size: 15px;
+    padding-left: 15px;
+   color:whitesmoke;
+   font-family:"roboto";
+   font-weight: 650;
+    padding-top: 10px;
+}
+.button1:hover{
+   background-color: green !important;
+   border-radius: 15px !important;
+   transition: all 1s;
+   border: none;
+
+    
+}
+svg:hover{
+    fill: black;
+}
